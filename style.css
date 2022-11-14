@@ -1,113 +1,94 @@
 @charset 'utf-8';
 * {
-    padding: 0;
-    margin: 0;
-    vertical-align: baseline;
-    list-style: none;
-    border: 0
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
 }
-body{
+body {
+  background-color: rgb(219, 211, 211);
+  min-height: 100vh;
+}
+header {
+  background-color: black;
 
-    
-    background-color: rgb(219, 211, 211);
-    min-height: 100vh;
-}
-header{
-    
-    background-color: black;
-   
-    margin: center;
-    font-size: 2em;
-    text-align: center;
-    
-    
+  margin: center;
+  font-size: 2em;
+  text-align: center;
 }
 
-
-a   {
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-p#txttitulo{
-    color: white;
-    font-size: 2em;
-    text-align: center;
-    padding-top: 40px;
-    
-
+p#txttitulo {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 40px;
 }
 
 p#txtautor {
-    color: white;
-    font-size: .6em;
-    text-decoration: none;
-    padding-bottom: 40px;
-    
-
+  color: white;
+  font-size: 0.6em;
+  text-decoration: none;
+  padding-bottom: 40px;
 }
-section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 30px;
-    font-size: 1.5em;
-    font-family: 'Satisfy', cursive;
-    line-height: 2em;
-   
-}
-.sectionimg {   
-   
-    background-image: url('imagens/calcabranca.jpg');
-    background-position: bottom left;
-    background-size: cover;
-    background-attachment: fixed;
-    
-   
-   
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
+  font-size: 1.5em;
+  font-family: "Satisfy", cursive;
+  line-height: 2em;
+  background-size: cover;
   
-    
-    
-}
-.sectiontxt  {  
-    
-    
-   
-    
 }
 
+.sectiontxt {
+}
 
+.sectionimg {
+  box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.4);
+}
 
 .sectionimg > p {
-
-    display: inline-block;
-    background-color:darkgray;
-    color: white;
-    margin-left: -10px;
-    font-family: 'Satisfy', cursive;
-    padding-right: 10px;
-    padding-left: 10px;
-    
-
+  display: inline-block;
+  background-color: darkgray;
+  color: white;
+  margin-left: -10px;
+  font-family: "Satisfy", cursive;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.559);
 }
 
+#img01 {
+  background-image: url("imagens/calcabranca.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+}
 
+#img02 {
+  background-image: url("imagens/back-tablet.jpg");
+  background-position: center right;
+  background-attachment: fixed;
+}
 
-
-
-
-
-
-
+#img03 {
+  background-image: url(/imagens/back-phone.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+}
 
 footer {
-    background: black;
-    color: white;
-    padding: 15px;
-   
-    
-    
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-size: .6em;
+  background: black;
+  color: white;
+  padding: 15px;
 
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 0.6em;
 }
