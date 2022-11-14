@@ -1,0 +1,97 @@
+@charset 'utf-8';
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+body{
+
+    height: 100vh;
+    background-color: rgb(219, 211, 211);
+    height: 94vh;
+}
+header{
+    
+    background-color: black;
+    padding: 60px ;
+    width: 94vh;
+    height: 10vw;
+    margin: center;
+    font-size: 2em;
+    text-align: center;
+    
+    
+}
+
+section{
+    padding: 20px 0px 0px 20px;
+    font-size: 1.5em;
+   
+}
+a   {
+    text-decoration: none;
+    color: inherit;
+}
+
+p#txttitulo{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    
+
+}
+
+p#txtautor {
+    color: white;
+    font-size: .6em;
+    text-decoration: none;
+    
+
+}
+.Paragrafosimg {   
+    background-color: black;
+   
+  
+    
+    
+}
+.Paragrafostxt 
+{   display: block;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Satisfy', cursive;
+    
+    background-color: rgba(67, 27, 27, 0.222);
+   
+    width: 400px;
+    padding: 0px 10px ;
+    
+    
+}
+
+
+
+#imagem01{
+    background-image: url('imagens/calcabranca.jpg');
+    background-position: bottom left;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Satisfy', cursive;
+
+}
+
+
+footer {
+    background: black;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    
+    
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: .6em;
+
+}
