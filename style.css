@@ -8,7 +8,7 @@
 }
 body{
 
-    height: 100vh;
+    
     background-color: rgb(219, 211, 211);
     min-height: 100vh;
 }
@@ -78,11 +78,14 @@ section{
 
 
 .sectionimg > p {
-   
-     background-color:darkgray;
+
+    display: inline-block;
+    background-color:darkgray;
     color: white;
+    margin-left: -10px;
     font-family: 'Satisfy', cursive;
-    width: 350px;
+    padding-right: 10px;
+    padding-left: 10px;
     
 
 }
