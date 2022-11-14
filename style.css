@@ -10,14 +10,12 @@ body{
 
     height: 100vh;
     background-color: rgb(219, 211, 211);
-    height: 94vh;
+    min-height: 100vh;
 }
 header{
     
     background-color: black;
-    padding: 60px ;
-    width: 94vh;
-    height: 10vw;
+   
     margin: center;
     font-size: 2em;
     text-align: center;
@@ -25,11 +23,7 @@ header{
     
 }
 
-section{
-    padding: 20px 0px 0px 20px;
-    font-size: 1.5em;
-   
-}
+
 a   {
     text-decoration: none;
     color: inherit;
@@ -39,6 +33,7 @@ p#txttitulo{
     color: white;
     font-size: 2em;
     text-align: center;
+    padding-top: 40px;
     
 
 }
@@ -47,47 +42,65 @@ p#txtautor {
     color: white;
     font-size: .6em;
     text-decoration: none;
+    padding-bottom: 40px;
     
 
 }
-.Paragrafosimg {   
-    background-color: black;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 1.5em;
+    font-family: 'Satisfy', cursive;
+    line-height: 2em;
+   
+}
+.sectionimg {   
+   
+    background-image: url('imagens/calcabranca.jpg');
+    background-position: bottom left;
+    background-size: cover;
+    background-attachment: fixed;
+    
+   
    
   
     
     
 }
-.Paragrafostxt 
-{   display: block;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Satisfy', cursive;
+.sectiontxt  {  
     
-    background-color: rgba(67, 27, 27, 0.222);
+    
    
-    width: 400px;
-    padding: 0px 10px ;
-    
     
 }
 
 
 
-#imagem01{
-    background-image: url('imagens/calcabranca.jpg');
-    background-position: bottom left;
-    background-size: cover;
-    background-attachment: fixed;
+.sectionimg > p {
+   
+     background-color:darkgray;
+    color: white;
     font-family: 'Satisfy', cursive;
+    width: 350px;
+    
 
 }
+
+
+
+
+
+
+
+
 
 
 footer {
     background: black;
     color: white;
     padding: 15px;
-    margin-top: 20px;
+   
     
     
     text-align: center;
