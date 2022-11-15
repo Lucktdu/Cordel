@@ -80,7 +80,7 @@ section {
 }
 
 #img03 {
-  background-image: url(/imagens/back-phone.jpg);
+  background-image: url('/imagens/back-phone.jpg');
   background-position: center center;
   background-attachment: fixed;
 }
