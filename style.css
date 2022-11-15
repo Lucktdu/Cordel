@@ -44,7 +44,6 @@ section {
   font-family: "Satisfy", cursive;
   line-height: 2em;
   background-size: cover;
-  
 }
 
 .sectiontxt {
@@ -65,8 +64,6 @@ section {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.559);
 }
 
-
-
 #img01 {
   background-image: url("imagens/calcabranca.jpg");
   background-position: center center;
@@ -80,7 +77,7 @@ section {
 }
 
 #img03 {
-  background-image: url('/imagens/back-phone.jpg');
+  background-image: url("imagens/back-phone.jpg");
   background-position: center center;
   background-attachment: fixed;
 }
